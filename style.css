@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image:linear-gradient(to bottom , rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("egoista.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.logo-img{
+    width: 150px;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo , .nav-items-list{
+    padding: 40px;
+}
+
+.nav-items-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item-list{
+    list-style: none;
+    padding: 0 20px;
+}
+.nav-item-list a{
+    font-size: .8em;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+} 
+.car{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 42%;
+    right: 0%;
+    left: 0%;
+}
+.social{
+    flex: 10%;
+}
+.social-logo{
+    
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items:flex-end;
+}
+.social-logo li{
+    padding: 10px 0px;
+    padding-right: 50px;
+}
+.text{
+    padding: 0 180px;
+}
+
+.lamborghini{
+    font-size: 3em;
+    font-weight: 200;
+    letter-spacing: 16px;
+    color: rgba(255,255,255,.8);
+}
+
+.egoista{
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.reserve-button{
+  background: #E56000;
+  border: none;
+  outline: none;
+  color: rgb(255, 247, 221);
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 2px;
+  font-size: .7em;
+  font-weight: 600;
+  width: 100px;
+  height: 100%;
+  cursor: pointer;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    backdrop-filter: blur(1px);
+}
+
+.speed, .power , .engine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.speed p, .power p, .engine p{
+    padding: 2px;
+    font-size: .8em;
+}
+.span{
+    font-size: 2em;
+    font-weight: 700;
+    padding: 0 5px;
+}
